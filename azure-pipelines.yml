@@ -14,4 +14,4 @@ stages:
     - task: PythonScript@0
       inputs:
         scriptSource: 'filePath'
-        scriptPath: '.\test.py'
+        scriptPath: 'test.py'

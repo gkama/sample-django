@@ -3,3 +3,7 @@
 
 # config
 config.json
+
+# python
+__pycache__
+db.sqlite3

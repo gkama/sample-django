@@ -43,6 +43,10 @@ steps:
   displayName: 'Install prerequisites'
 
 - script: |
+    pip install Django
+  displayName: 'Install requirements'
+
+- script: |
     pushd '$(projectRoot)'
     python manage.py test --testrunner xmlrunner.extra.djangotestrunner.XMLTestRunner --no-input
   displayName: 'Run tests'

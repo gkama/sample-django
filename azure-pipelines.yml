@@ -43,7 +43,8 @@ steps:
   displayName: 'Install prerequisites'
 
 - script: |
-    pip install Django
+    pip install django
+    pip install django-tastypie
   displayName: 'Install requirements'
 
 - script: |

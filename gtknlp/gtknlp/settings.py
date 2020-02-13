@@ -54,7 +54,7 @@ ROOT_URLCONF = 'gtknlp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['gtknlp/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
